@@ -1,6 +1,5 @@
 import PhoneSvg from "../assets/img/testimonial/PhoneSvg.svg";
 import BackSvg from "../assets/img/features/back.svg";
-import StarSvg from "../assets/img/features/star.svg";
 
 export const Faq = () => {
     return(
