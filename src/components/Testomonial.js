@@ -14,7 +14,7 @@ export const Testomonial = () => {
             </div>
             <div className="testimonal-bx">
 
-                <div className="testimonial-img-bulk" style={{position:"absolute"}}>
+                <div className="testimonial-img-bulk">
                     <div className="back-glow">
                         <img src={BackSvg} alt="back"/>
                     </div>
