@@ -10,7 +10,7 @@ export const Testomonial = () => {
                 <h1 style={{color:"black"}}>TESTIMONIAL</h1>
             </div>
             <div className="testimonial-subheading">
-                <h1 style={{color:"black"}}>What Our Users Say About Us?</h1>
+                <h1 style={{color:"black",marginTop:"3%"}}>What Our Users Say About Us?</h1>
             </div>
             <div className="testimonal-bx">
 
@@ -22,6 +22,8 @@ export const Testomonial = () => {
                         <img style={{width:"100%"}} src={TestimonialImg} alt="img"/>
 
                     </div>
+                    <img src={StarSvg} alt="star"/>
+
                 </div>
                 <div className="testimonial-txt-bx">
                     <div className="head-bx">
@@ -42,10 +44,16 @@ export const Testomonial = () => {
                             <img style={{opacity:"50%"}} src={UserSecSvg} alt="user-svg"/>
 
                         </div>
-                    </div>             
+                    </div> 
+                    <div className="user-name">
+                        <h4 style={{color:"black",marginTop:"3%"}}>Nick Jonas</h4>
+                    </div>            
                 </div>
+
                 
             </div>
+         
+
         </section>
     )
 }

@@ -326,6 +326,7 @@ nav.navbar {
   margin-top: 10%;
   margin-right: 5%;
   margin-left: 5%;
+  position: relative;
 }
 
 .testominal-heading{
@@ -353,12 +354,9 @@ nav.navbar {
   left:35%;
 }
 
-.testimonial-img-bulk{
-  left:5%;
-}
 .testimonal-bx{
   display: flex;
-  margin-top: 10px;
+  margin-top: -3%;
 }
 
 
@@ -376,8 +374,8 @@ nav.navbar {
 
 .testimonial-txt-bx{
   position:absolute;
-  left: 58%;
-  width:50%;
+  left: 55%;
+  width:60%;
 
 }
 
@@ -393,4 +391,15 @@ nav.navbar {
 .user-icon{
   display: flex;
   margin-top: 5%;
+}
+
+.user-name{
+  font-family: "Clash Display Med";
+  font-size: 18px;
+  font-weight: 600;
+
+}
+.testimonial-star {
+  position: absolute;
+  bottom: 0;
 }
