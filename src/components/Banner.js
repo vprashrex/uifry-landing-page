@@ -2,13 +2,14 @@ import BannerImg1 from "../assets/img/banner/iphone.svg";
 import BackImg from "../assets/img/banner/back.svg";
 import ArrowSvg from "../assets/img/banner/arrow.svg";
 import TapeSvg from "../assets/img/banner/tape.svg";
+import { Data } from "./Data";
 
 export const Banner = () => {
     return (
         <section className="banner" id="banner">
             <div className="heading" >
                 <div className="header-info">
-                    <h1>Make The Best Financial Decisions</h1>
+                    <h1>{Data.hero.subheadline}</h1>
                     <img className="back-img" src={BackImg} alt="backimg"/>
                 </div>
                 <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
