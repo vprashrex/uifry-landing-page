@@ -1,0 +1,51 @@
+import TestimonialImg from "../assets/img/testimonial/img.svg";
+import BackSvg from "../assets/img/features/back.svg";
+import StarSvg from "../assets/img/features/star.svg";
+import UserSvg from "../assets/img/testimonial/user.svg";
+import UserSecSvg from "../assets/img/testimonial/user-sec.svg";
+export const Testomonial = () => {
+    return (
+        <section className="testomonial" id="testomonial">
+            <div className="testominal-heading">
+                <h1 style={{color:"black"}}>TESTIMONIAL</h1>
+            </div>
+            <div className="testimonial-subheading">
+                <h1 style={{color:"black"}}>What Our Users Say About Us?</h1>
+            </div>
+            <div className="testimonal-bx">
+
+                <div className="testimonial-img-bulk">
+                    <div className="back-glow">
+                        <img src={BackSvg} alt="back"/>
+                    </div>
+                    <div className="front-img">
+                        <img  src={TestimonialImg} alt="img"/>
+
+                    </div>
+                </div>
+                <div className="testimonial-txt-bx">
+                    <div className="head-bx">
+                        <h1 style={{color:"black"}}>
+                            The Best Financial Accounting App Ever!
+                        </h1>
+                        
+                    </div>
+                    <p>
+                        “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.”
+                    </p>     
+                    <div className="user-icon">
+                        <div>
+                            <img src={UserSvg} alt="user-svg"/>
+
+                        </div>
+                        <div style={{marginTop:"5px",marginLeft:"10px"}}>
+                            <img style={{opacity:"50%"}} src={UserSecSvg} alt="user-svg"/>
+
+                        </div>
+                    </div>             
+                </div>
+                
+            </div>
+        </section>
+    )
+}
