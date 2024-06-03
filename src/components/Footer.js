@@ -78,7 +78,7 @@ export const Footer = () => {
                         <div className="mt-3" style={{display:"flex"}}>
                             <span className="text-black ml-2" style={{fontFamily:"Clash Display Regular",fontWeight:"600",fontSize:"16px",marginLeft:"0px"}}>Stay Up to Date</span>
                         </div>
-                        <div className="mt-3" style={{display:"flex"}}>
+                        <div className="mt-3" style={{display:"flex",marginTop:"20px"}}>
                             <input className="input-bx" type="text" placeholder="Your Email"/>
                             <button className="subscribe-bt">Subscribe</button>
                         </div>

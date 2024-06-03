@@ -1,4 +1,7 @@
 import PhoneSvg from "../assets/img/testimonial/PhoneSvg.svg";
+import BackSvg from "../assets/img/features/back.svg";
+import StarSvg from "../assets/img/features/star.svg";
+
 export const Faq = () => {
     return(
         <section className="faq-section" id="faq-section" >
@@ -52,6 +55,18 @@ export const Faq = () => {
                     </div>
                     <p style={{marginTop:"10px",color:"grey",fontFamily:"Clash Display Med",fontWeight:"600"}}>“Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris.</p>
                 </div>                
+            </div>
+            <div style={{position:"absolute",right:"0%",marginTop:"5%"}}>
+                <svg width="62" height="59" viewBox="0 0 62 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M31.0001 0.70874L32.5049 30.6377L61.4339 22.8202L33.4348 33.4998L49.8092 58.5973L31.0001 35.2687L12.191 58.5973L28.5654 33.4998L0.566313 22.8202L29.4954 30.6377L31.0001 0.70874Z" fill="black"/>
+                </svg>
+
+            </div>
+            <img src={BackSvg} alt="back-svg" style={{position:"absolute",zIndex:"-9999",left:"0%",marginTop:"5%"}}/>
+            <div style={{position:"absolute",left:"3%",marginTop:"25%"}}>
+                <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M40.9117 4.6793L25.8375 21.3495L45.3253 32.5456L24.8128 23.3606L20.1867 45.3544L22.5835 23.0075L0.236642 25.4043L22.2304 20.7782L13.0454 0.265709L24.2415 19.7535L40.9117 4.6793Z" fill="black"/>
+                </svg>
             </div>
             <div className="card-img" style={{zIndex:"-1"}}>
                 <div style={{position:"absolute",right:"30%",marginTop:"2%"}}>
