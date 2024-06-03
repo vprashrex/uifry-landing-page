@@ -347,19 +347,21 @@ nav.navbar {
   font-family: "Clash Display";
   font-weight: 700;
   font-size: 48px;
-  line-height: 68px;
-  width: 50%;
-  margin-top: -5%;
+  line-height: 48px;
+  width: 30%;
   position: relative;
-  left:25%;
+  left:35%;
 }
 
 .testimonial-img-bulk{
-  left:0%;
+  left:5%;
 }
 .testimonal-bx{
   display: flex;
+  margin-top: 10px;
 }
+
+
 
 .head-bx{
   display: flex;
@@ -372,12 +374,20 @@ nav.navbar {
   font-weight: 600;
 }
 
+.testimonial-txt-bx{
+  position:absolute;
+  left: 58%;
+  width:50%;
+
+}
+
 .testimonial-txt-bx p{
   font-family: "Clash Display Med";
   font-size: 18px;
   color:grey;
   font-weight: 500;
-  width:80%;
+  width:50%;
+
 }
 
 .user-icon{

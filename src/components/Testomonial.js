@@ -14,23 +14,23 @@ export const Testomonial = () => {
             </div>
             <div className="testimonal-bx">
 
-                <div className="testimonial-img-bulk">
+                <div className="testimonial-img-bulk" style={{position:"absolute"}}>
                     <div className="back-glow">
                         <img src={BackSvg} alt="back"/>
                     </div>
-                    <div className="front-img">
-                        <img  src={TestimonialImg} alt="img"/>
+                    <div >
+                        <img style={{width:"100%"}} src={TestimonialImg} alt="img"/>
 
                     </div>
                 </div>
                 <div className="testimonial-txt-bx">
                     <div className="head-bx">
-                        <h1 style={{color:"black"}}>
+                        <h1 style={{color:"black",width:"60%",lineHeight:"30px"}}>
                             The Best Financial Accounting App Ever!
                         </h1>
                         
                     </div>
-                    <p>
+                    <p style={{marginTop:"3%"}}>
                         “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.”
                     </p>     
                     <div className="user-icon">
